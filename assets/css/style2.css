@@ -323,10 +323,10 @@ ul {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -moz-box-shadow: 0 0 10px #cccccc;
-  -webkit-box-shadow: 0 0 10px #cccccc;
-  -o-box-shadow: 0 0 10px #cccccc;
-  box-shadow: 0 0 10px #cccccc;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
   color: #ffaf5a;
   display: inline-block;
   font-size: 30px;
@@ -346,12 +346,12 @@ ul {
   margin-bottom: 25px;
 }
 
-.features-area .features-items.icon-solid i {
+.features-area .features-items.icon-solid img {
   border-radius: inherit;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
-  box-shadow: 0 0 10px #cccccc;
+  box-shadow: none;
   color: #ffaf5a;
   display: inline-block;
   font-size: 50px;
