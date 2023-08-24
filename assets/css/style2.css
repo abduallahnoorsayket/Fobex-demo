@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+  color: #ffde00;
+}
+section {
+  padding: 3rem 0;
+}
+.hero {
+  min-height: 70vh;
+  margin: 30px 20px 0;
+  background: #070a52;
+}
+.hero-logo {
+  width: 220px;
+}
+.text-primary {
+  color: #ffde00 !important;
+}
+.btn-primary {
+  background: #ffde00 !important;
+}
+.heading-one {
+  color: #ffff;
+  font-size: 55px;
+}
+.hero-content {
+  max-width: 860px;
+}
+/* /* Hover Scroll Effect */
+.frame {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.frame img {
+  object-fit: cover;
+  width: 100%;
+  transform: translateY(0);
+  transition: 2s ease-out;
+}
+.frame:hover img {
+  object-fit: cover;
+  width: 100%;
+  /* Considering frame height   */
+  transform: translateY(calc(-100% + 300px));
+  transition: 2s ease-out;
+}
+/*OR */
+/* .frameimg:hover{
+  object-fit: cover;
+  width:100%;
+  transform: translateY(-100%);
+  transition: 2s ease-out;
+} */
+
+/* With background image  */
+.bg-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 2s ease-out;
+}
+.frame:hover .bg-image {
+  background-position: 0 100%;
+}
+.bg-1 {
+  background-image: url("../image/other/cube-home-1.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.bg-3 {
+  background-image: url("../image/other/about.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.bg-2 {
+  background-image: url("../image/other/cube-home-2.webp");
+}
+.footer {
+  color: #ffff;
+  background: #070a52;
+  padding: 1rem 0;
+}
