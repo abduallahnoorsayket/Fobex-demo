@@ -55,13 +55,21 @@ h5 {
 h6 {
   font-size: 16px;
 }
-
-a {
-  text-decoration: none;
-  color: var(--primary);
-}
 section {
   padding: 3rem 0;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: var(--primary);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .btn {
   font-weight: 700;
@@ -69,10 +77,7 @@ section {
 .btn-outline-warning {
   border: 2px solid var(--primary) !important;
 }
-/* Header section */
-/* .nav-logo{
-  width: ;
-} */
+
 .nav-link {
   color: rgba(0, 0, 0, 0.7) !important;
   font-weight: 500;
@@ -81,13 +86,15 @@ section {
 .hero {
   min-height: 70vh;
   background-image: url(../image/other/Fobex-hero-bg.jpg);
-  background-size: cover;
+  background-size: auto;
   width: 100%;
   padding-top: 20px;
   position: relative;
   margin-bottom: 100px;
   background-blend-mode: multiply;
   background-color: rgb(179 153 20 / 88%);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 .hero-logo {
   width: 220px;
@@ -137,14 +144,6 @@ section {
   transform: translateY(calc(-100% + 400px));
   transition: 7s ease-out;
 }
-/*OR */
-/* .frameimg:hover{
-  object-fit: cover;
-  width:100%;
-  transform: translateY(-100%);
-  transition: 2s ease-out;
-} */
-
 /* With background image  */
 .bg-image {
   width: 100%;
@@ -196,24 +195,7 @@ section {
 .bg-13 {
   background-image: url("../image/other/contact-2.png");
 }
-/*  */
 
-/* section {
-  padding: 60px 0;
-  min-height: 100vh;
-} */
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  outline: none;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .bg-gray {
   background-color: #f9f9f9;
 }
@@ -244,9 +226,8 @@ ul {
 }
 
 .site-heading {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   overflow: hidden;
-  margin-top: -5px;
 }
 
 .features-items,
@@ -284,7 +265,6 @@ ul {
 .features-area .features-items.reversed .col-md-5,
 .features-area .features-items.reversed .col-md-7 {
   display: inline-block;
-  float: left;
 }
 
 .features-area .features-items.reversed .info-box {
@@ -315,21 +295,18 @@ ul {
   margin-bottom: 20px;
 }
 
-.features-area .item .info {
-}
-
-.features-area .item .icon img {
+.features-area .item .icon i {
   background: #ffffff none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
   color: #ffaf5a;
   display: inline-block;
-  font-size: 30px;
+  font-size: 45px;
   height: 100px;
   line-height: 100px;
   position: relative;
@@ -346,12 +323,12 @@ ul {
   margin-bottom: 25px;
 }
 
-.features-area .features-items.icon-solid img {
+.features-area .features-items.icon-solid i {
   border-radius: inherit;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
-  box-shadow: none;
+  box-shadow: 0 0 10px #cccccc;
   color: #ffaf5a;
   display: inline-block;
   font-size: 50px;
@@ -393,4 +370,11 @@ ul {
   color: #ffff;
   background: #070a52;
   padding: 1rem 0;
+}
+
+/* All responsive Styles */
+@media (max-width: 768px) {
+  .heading-one {
+    font-size: 35px;
+  }
 }

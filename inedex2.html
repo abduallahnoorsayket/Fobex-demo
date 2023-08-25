@@ -21,10 +21,16 @@
       type="image/x-icon"
       href="assets/image/logo//favicon2.png"
     />
+    <!-- font awesome link-->
+    <script
+      src="https://kit.fontawesome.com/e185530e81.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Fobex - Demo page</title>
     <link rel="stylesheet" href="/assets/css/style2.css" />
   </head>
   <body>
+    <!--Header  start -->
     <header class="header">
       <div class="container">
         <div class="row">
@@ -99,7 +105,9 @@
         </div>
       </div>
     </header>
+    <!--Header  end -->
     <main>
+      <!--Hero section start -->
       <section
         class="hero text-center d-flex justify-content-center align-items-center"
       >
@@ -128,9 +136,15 @@
           </div>
         </div>
       </section>
-      <section id="demos" class="demos text-center">
-        <h2>Template <span class="text-primary">Demos</span></h2>
-        <!-- Page Content -->
+      <!--Hero section End -->
+      <!--Demo section start -->
+
+      <section id="demos" class="demos text-center text-center">
+        <div class="site-heading text-center">
+          <h2>Template <span class="text-primary">Demos</span></h2>
+
+          <h4>Checkout our all demo pages</h4>
+        </div>
         <div class="container mt-5">
           <div class="row">
             <div class="col-xl-4 col-md-6 mb-4">
@@ -314,6 +328,8 @@
           <!-- /.row -->
         </div>
       </section>
+      <!--Demo section end -->
+      <!--Feature section start -->
       <section
         id="features"
         class="features-area item-full text-center cell-items default-padding"
@@ -324,7 +340,7 @@
               <div class="site-heading text-center">
                 <h2>Our <span class="text-primary">Features</span></h2>
 
-                <!-- <h4>Checkout our leatest features</h4> -->
+                <h4>Checkout our leatest features</h4>
               </div>
             </div>
           </div>
@@ -332,12 +348,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <!-- <i class="fas fa-tv"></i> -->
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/html.png"
-                    alt=""
-                  />
+                  <i class="fa-brands fa-html5"></i>
                 </div>
                 <div class="info">
                   <h4>HTML 5</h4>
@@ -351,11 +362,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/javascript.png"
-                    alt=""
-                  />
+                  <i class="fa-brands fa-square-js"></i>
                 </div>
                 <div class="info">
                   <h4>JavaScript</h4>
@@ -369,11 +376,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/bs4cion2.jpg"
-                    alt=""
-                  />
+                  <i class="fa-brands fa-bootstrap"></i>
                 </div>
                 <div class="info">
                   <h4>Bootstrap 4+</h4>
@@ -387,11 +390,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/swiper-logo.svg"
-                    alt=""
-                  />
+                  <i class="fa-solid fa-s"></i>
                 </div>
                 <div class="info">
                   <h4>SwiperJS</h4>
@@ -406,11 +405,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/css.png"
-                    alt=""
-                  />
+                  <i class="fa-brands fa-css3-alt"></i>
                 </div>
                 <div class="info">
                   <h4>CSS 3</h4>
@@ -424,11 +419,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/responsive.png"
-                    alt=""
-                  />
+                  <i class="fa-solid fa-laptop"></i>
                 </div>
                 <div class="info">
                   <h4>Responsive</h4>
@@ -442,11 +433,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/fast.png"
-                    alt=""
-                  />
+                  <i class="fa-solid fa-gauge"></i>
                 </div>
                 <div class="info">
                   <h4>Fast Loading Speed</h4>
@@ -461,11 +448,7 @@
             <div class="col-md-4 col-sm-6 equal-height">
               <div class="item">
                 <div class="icon">
-                  <img
-                    class="feature-image"
-                    src="./assets/image/other/support.png"
-                    alt=""
-                  />
+                  <i class="fa-solid fa-headset"></i>
                 </div>
                 <div class="info">
                   <h4>24 Support System</h4>
@@ -479,18 +462,19 @@
           </div>
         </div>
       </section>
+      <!--Feature section end -->
     </main>
-    <footer class="footer text-center">
+    <!--Footer section start -->
+
+    <footer class="footer text-center pt-4">
       <p>
         Copyright &copy; 2023
         <a href="https://thimcloud.com" className="text-primary"> ThimCloud </a
         >. All Right Reserved
       </p>
     </footer>
-
+    <!--Footer section end -->
     <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
