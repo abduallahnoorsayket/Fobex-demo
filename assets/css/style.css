@@ -156,44 +156,44 @@ ul {
   background-position: 0 100%;
 }
 .bg-1 {
-  background-image: url("../image/other/cube-home-1.webp");
+  background-image: url("../image/other/Home-1.png");
 }
 .bg-2 {
-  background-image: url("../image/other/cube-home-2.webp");
+  background-image: url("../image/other/Home-2.png");
 }
 .bg-3 {
-  background-image: url("../image/other/about.webp");
+  background-image: url("../image/other/about-us.png");
 }
 .bg-4 {
-  background-image: url("../image/other/service.webp");
+  background-image: url("../image/other/services.png");
 }
 .bg-5 {
-  background-image: url("../image/other/service-details.webp");
+  background-image: url("../image/other/service-details.png");
 }
 .bg-6 {
-  background-image: url("../image/other/case-studies.webp");
+  background-image: url("../image/other/case-studies.png");
 }
 .bg-7 {
-  background-image: url("../image/other/case-details.webp");
+  background-image: url("../image/other/case-details.png");
 }
 .bg-8 {
-  background-image: url("../image/other/our-team.webp");
+  background-image: url("../image/other/our-team.png");
 }
 .bg-9 {
-  background-image: url("../image/other//pricing.webp");
+  background-image: url("../image/other/pricing.png");
 }
 .bg-10 {
-  background-image: url("../image/other/faq.webp");
+  background-image: url("../image/other/faq.png");
 }
 .bg-11 {
-  background-image: url("../image/other/news.webp");
+  background-image: url("../image/other/news.png");
 }
 .bg-12 {
-  background-image: url("../image/other/news-details.webp");
+  background-image: url("../image/other/news-details.png");
 }
 
 .bg-13 {
-  background-image: url("../image/other/contact-2.png");
+  background-image: url("../image/other/contact.png");
 }
 
 .bg-gray {
