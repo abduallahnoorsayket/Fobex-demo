@@ -156,19 +156,19 @@ ul {
   background-position: 0 100%;
 }
 .bg-1 {
-  background-image: url("../image/other/Home-1.png");
+  background-image: url("../image/other/Home-1.jpg");
 }
 .bg-2 {
-  background-image: url("../image/other/Home-2.png");
+  background-image: url("../image/other/Home-2.jpg");
 }
 .bg-3 {
-  background-image: url("../image/other/about-us.png");
+  background-image: url("../image/other/about-us.jpg");
 }
 .bg-4 {
   background-image: url("../image/other/services.png");
 }
 .bg-5 {
-  background-image: url("../image/other/service-details.png");
+  background-image: url("../image/other/service-details.jpg");
 }
 .bg-6 {
   background-image: url("../image/other/case-studies.png");
@@ -177,7 +177,7 @@ ul {
   background-image: url("../image/other/case-details.png");
 }
 .bg-8 {
-  background-image: url("../image/other/our-team.png");
+  background-image: url("../image/other/our-team.jpg");
 }
 .bg-9 {
   background-image: url("../image/other/pricing.png");
@@ -186,7 +186,7 @@ ul {
   background-image: url("../image/other/faq.png");
 }
 .bg-11 {
-  background-image: url("../image/other/news.png");
+  background-image: url("../image/other/news.jpg");
 }
 .bg-12 {
   background-image: url("../image/other/news-details.png");
@@ -368,7 +368,7 @@ ul {
 /* Footer section */
 .footer {
   color: #ffff;
-  background: #070a52;
+  background: #131922;
   padding: 1rem 0;
 }
 
