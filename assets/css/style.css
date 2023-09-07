@@ -73,6 +73,9 @@ ul {
   padding: 0;
   list-style: none;
 }
+li a.active {
+  color: #fac10b !important;
+}
 .btn {
   font-weight: 700;
 }
@@ -92,7 +95,7 @@ ul {
 
 /* Hero  section*/
 .hero {
-  min-height: 70vh;
+  /* min-height: 70vh; */
   background-image: url(../image/other/Fobex-hero-bg.jpg);
   background-size: auto;
   width: 100%;
@@ -110,6 +113,9 @@ ul {
 .text-primary {
   color: var(--primary) !important;
 }
+h2 .text-primary {
+  text-shadow: 0 5px 3px #c4b59d, 0 -2px 1px #fff;
+}
 .btn-primary {
   background: var(--primary) !important;
   border: none;
@@ -126,7 +132,7 @@ ul {
 }
 .hero-content {
   max-width: 860px;
-  padding: 0 15px;
+  padding: 100px 15px;
 }
 /* Demo section */
 .demos {

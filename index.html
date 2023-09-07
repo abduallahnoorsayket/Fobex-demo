@@ -31,7 +31,7 @@
   </head>
   <body>
     <!--Header  start -->
-    <header class="header sticky-top">
+    <header id="header" class="header sticky-top">
       <div class="container">
         <div class="row">
           <div class="col-xl-12 col-md-12">
@@ -60,6 +60,9 @@
                 id="navbarSupportedContent"
               >
                 <ul class="navbar-nav ml-auto mr-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#demos">Demo</a>
                   </li>
@@ -92,6 +95,7 @@
     <main>
       <!--Hero section start -->
       <section
+        id="home"
         class="hero text-center d-flex justify-content-center align-items-center"
       >
         <div class="hero-content">
@@ -108,18 +112,12 @@
             >
             HTML Template
           </h1>
-          <!-- <h3 class="text-primary mt-3">
-            Multiple home version with more 11 pages included
-          </h3> -->
           <div class="btn-container mt-5">
             <a
               href="#demos"
               class="btn btn-outline-warning btn-lg mx-4 px-5 py-2"
               >View Demos</a
             >
-            <!-- <a href="#" class="btn btn-outline-warning btn-lg"
-              >View Documentation</a
-            > -->
           </div>
         </div>
       </section>
@@ -486,12 +484,11 @@
     </main>
     <!--Footer section start -->
 
-    <footer class="footer text-center pt-4">
+    <footer id="footer" class="footer text-center pt-4">
       <p>
         Copyright &copy; 2023
-        <a href="https://fobex.thimcloud.com/" className="text-primary">
-          Fobex </a
-        >. All Right Reserved
+        <a href="https://fobex.thimcloud.com/" class="text-primary"> Fobex </a>.
+        All Right Reserved
       </p>
     </footer>
     <!--Footer section end -->
@@ -506,5 +503,6 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
