@@ -17,6 +17,7 @@
 }
 html {
   background: black;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -57,6 +58,7 @@ h6 {
 }
 section {
   padding: 3rem 0;
+  scroll-margin-top: 70px;
 }
 a,
 a:hover,
@@ -75,20 +77,26 @@ ul {
   font-weight: 700;
 }
 .btn-outline-warning {
-  border: 2px solid var(--primary) !important;
+  border: 2px solid #fac10b !important;
 }
-
+/* Header section  */
+.header {
+  background: #fffffff2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
 .nav-link {
   color: rgba(0, 0, 0, 0.7) !important;
   font-weight: 500;
 }
+
 /* Hero  section*/
 .hero {
   min-height: 70vh;
   background-image: url(../image/other/Fobex-hero-bg.jpg);
   background-size: auto;
   width: 100%;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   position: relative;
   margin-bottom: 100px;
   background-blend-mode: multiply;
@@ -118,6 +126,7 @@ ul {
 }
 .hero-content {
   max-width: 860px;
+  padding: 0 15px;
 }
 /* Demo section */
 .demos {
@@ -212,6 +221,7 @@ ul {
   position: relative;
   text-transform: capitalize;
   z-index: 1;
+  font-weight: 500;
 }
 
 .site-heading h4::before {
@@ -371,8 +381,16 @@ ul {
   background: #131922;
   padding: 1rem 0;
 }
+.footer p {
+  margin-bottom: 0px;
+}
 
 /* All responsive Styles */
+@media (max-width: 991.98px) {
+  .padding-top {
+    padding-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .heading-one {
     font-size: 35px;
